@@ -1,0 +1,276 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.offcanvas
+{
+    max-width: 70%;
+}
+.image
+{
+    display: flex;
+    width: 100%;
+    height: 95vh;
+    background: url(hero2.jpg)no-repeat center center/cover;
+    justify-content: center;
+}
+.content
+{
+    background-blend-mode: darken;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.herohead
+{
+    display: flex;
+    color: burlywood;
+    padding: 12px;
+    margin: 12px;
+}
+.herocontent
+{
+    display: flex;
+    width: 65%;
+    height: 27%;
+    border-top: 1px solid #fff;
+    color: azure;
+    padding: 6px;
+    justify-content: center;
+    align-content: center;
+}
+.buttonsCont
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.orderbtn
+{
+    background-color: rgb(48, 45, 45);
+}
+.butn
+{
+    border: 2px solid rgba(245, 222, 179, 0.486);
+    border-radius: 15px;
+    padding: 11px 14px;
+    background-color: rgba(48, 45, 45, 0.425);
+}
+.butn:hover
+{
+    box-shadow: 0 0 12px 2px wheat;
+    color: rgb(0, 0, 0);
+}
+.butn a
+{
+    text-decoration: none;
+    color: rgb(226, 209, 153);
+    font-weight: 500;
+}
+.aboutCont
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 17px;
+}
+#About
+{
+    height: 80%;
+}
+#AboutFirst
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#AboutContainer
+{
+    padding: 14px;
+}
+.Aboutimgsect
+{
+    display: flex;
+    justify-content: center;
+}
+.AboutImg
+{
+    /* width: 400px; */
+    width: 80%;
+    height: 300px;
+}
+#AboutContainer2
+{
+    flex-direction: row-reverse;
+}
+#services
+{
+    display: flex;
+    flex-direction: column;
+}
+.serviceHead
+{
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+}
+.serviceMain
+{
+    display: flex;
+    height: 100%;
+}
+.card 
+{
+    margin: 6px;
+}
+.cardCont
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.cardCont2
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.imgCard
+{
+    width: 17.9rem;
+    height: 17rem;
+}
+
+#orderNow
+{
+    height: 100%;
+}
+.orderhead
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+}
+.orderSlogn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    border-bottom: 1px solid;
+    padding: 8px;
+}
+.orderMain
+{
+    display: flex;
+    flex-direction: column;
+}
+.orderBoxes
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 14px;
+}
+.orderBox
+{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    width: 252px;
+    margin: 8px;
+    border-radius: 14px;
+    cursor: pointer;
+    box-shadow: 0 0 40px;
+    /* box-shadow: -7px -7px 20px 0px rgb(76 76 76 / 55%), 7px 7px 12px 0 rgba(0, 0, 0, 0.541);; */
+}
+.orderBox:hover
+{
+    box-shadow: -7px -7px 20px 0px rgb(76 76 76 / 55%), 7px 7px 12px 0 rgba(0, 0, 0, 0.541);;
+}
+.orderBox img
+{
+    width: 250px;
+    height: 200px;
+    border-bottom: 1px solid;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.orderPara
+{
+    padding: 6px;
+    font-size: 1.2rem;
+}
+.orderBtn
+{
+    border-top: 1px solid;
+    /* margin: 2px; */
+    padding: 6px;
+}
+.orderCard
+{
+    background: url(/egg2.jpg)no-repeat center center/cover;
+    background-blend-mode: overlay;
+}
+#orderCard2
+{
+    background: url(/hens.jpg)no-repeat center center/cover;
+    background-blend-mode: overlay;
+}
+
+#orderCard3
+{
+    background: url(/nativehen.jpg)no-repeat center center/cover;
+    background-blend-mode: overlay;
+}
+.card-cover
+{
+    border-radius: 18px;
+}
+.form-floating
+{
+    margin: 12px 0;
+}
+.contactHead
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactFormSect
+{
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media screen and (max-width:1000px) {
+    .cardCont
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cardCont2
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card 
+    {
+        margin: 4px;
+    }
+    .orderBoxes
+    {
+        flex-direction: column;
+        align-items: center;
+        gap: 23px;
+    }
+}
