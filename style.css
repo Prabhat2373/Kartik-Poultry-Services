@@ -215,18 +215,18 @@
 }
 .orderCard
 {
-    background: url(/egg2.jpg)no-repeat center center/cover;
+    background: url(egg2.jpg)no-repeat center center/cover;
     background-blend-mode: overlay;
 }
 #orderCard2
 {
-    background: url(/hens.jpg)no-repeat center center/cover;
+    background: url(hens.jpg)no-repeat center center/cover;
     background-blend-mode: overlay;
 }
 
 #orderCard3
 {
-    background: url(/nativehen.jpg)no-repeat center center/cover;
+    background: url(nativehen.jpg)no-repeat center center/cover;
     background-blend-mode: overlay;
 }
 .card-cover
