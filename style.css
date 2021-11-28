@@ -44,6 +44,10 @@
     padding: 12px;
     margin: 12px;
 }
+.heropara
+{
+    font-size: 1.3rem;
+}
 .herocontent
 {
     display: flex;
@@ -116,6 +120,10 @@
     width: 80%;
     height: 300px;
 }
+.featurette-heading
+{
+    font-weight: bold;
+}
 #AboutContainer2
 {
     flex-direction: row-reverse;
@@ -140,6 +148,10 @@
 {
     margin: 6px;
 }
+.card-title
+{
+    font-weight: bold;
+}
 .cardCont
 {
     display: flex;
@@ -153,8 +165,8 @@
 }
 .imgCard
 {
-    width: 17.9rem;
-    height: 17rem;
+    width: 16.3rem;
+    height: 16rem;
 }
 
 #orderNow
@@ -167,6 +179,10 @@
     align-items: center;
     justify-content: center;
     padding: 4px;
+}
+.Fent
+{
+    color: rgb(54, 54, 54);
 }
 .orderSlogn
 {
