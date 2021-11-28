@@ -26,6 +26,17 @@
     flex-direction: column;
     justify-content: center;
 }
+.NavLogo
+{
+    display: inline-block;
+    margin: 5px;
+}
+.NavLogo img
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
 .herohead
 {
     display: flex;
