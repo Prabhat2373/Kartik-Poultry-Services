@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainCont {
+  padding: 24px 13px 2px 23px;
+  display: inline-block;
+  margin: 12px;
+  border-bottom: 1px solid #000;
+}
+.mainCont h1 {
+  padding: 8px;
+  /* border-bottom: 1px solid #000; */
+}
+
+.orderSection {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  /* justify-content: space-around; */
+  justify-content: center;
+  padding: 12px;
+  margin: 12px;
+}
+.eggsSect {
+  display: flex;
+  /* width: 30%; */
+  flex-direction: column;
+}
+.BirdFeedSect {
+  display: flex;
+  flex-direction: column;
+  /* width: 30%; */
+}
+.gavranSect {
+  display: flex;
+  flex-direction: column;
+  /* width: 30%; */
+}
+.orderCard {
+  border: 1px solid rgba(0, 0, 0, 0.493);
+  padding: 12px;
+  margin: 8px;
+  border-radius: 17px;
+  box-shadow: 9px 9px 11px #919191;
+}
+.orderCard h3 {
+  border-bottom: 1px solid #000;
+}
+.OrderForm {
+  display: flex;
+  flex-direction: column;
+}
+.labelClass {
+  display: inline-block;
+  margin: 11px;
+}
+
+.labelClass input {
+  margin-left: 15px;
+  width: 35%;
+  padding: 4px;
+}
+.rates {
+  width: 20%;
+}
+
+.wdth {
+  width: 35%;
+}
+form {
+  padding: 5px;
+  margin: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.521);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+@media screen and (max-width: 1000px) {
+  .orderSection {
+    flex-direction: column;
+  }
+  .wdth {
+    width: 100%;
+  }
+  .labelClass input {
+    width: 45%;
+  }
+  .rates {
+    width: 14%;
+  }
+  #eggrate {
+    width: 30%;
+  }
+  #feedRate {
+    width: 30%;
+  }
+  #chickenRate {
+    width: 30%;
+  }
+}
