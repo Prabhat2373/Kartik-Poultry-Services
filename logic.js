@@ -23,7 +23,7 @@ let eggrateVal = eggrate.value
 // console.log(eggrateVal)
 // console.log(eggTotal.value)
 
-eggqty.addEventListener("blur",()=>{
+eggqty.addEventListener("input",()=>{
     let eggVal = eggqty.value;
     // let totalVal = eggTotal.value
     let eggrateVal = eggrate.value
@@ -38,7 +38,7 @@ const feedRate = document.getElementById("feedRate");
 const feedQty = document.getElementById("feedQty");
 const feedTotal = document.getElementById("feedTotal")
 const feedRateVal = feedRate.value;
-feedQty.addEventListener("blur",()=>{
+feedQty.addEventListener("input",()=>{
     let feedQtyVal = feedQty.value;
     let total = EvalTotal(feedRateVal,feedQtyVal);
     feedTotal.value = total
@@ -51,7 +51,7 @@ const chickenRate = document.getElementById("chickenRate").value;
 const chickenQty = document.getElementById("chickenQty");
 const chickenTotal = document.getElementById("chickenTotal");
 
-chickenQty.addEventListener("blur",()=>{
+chickenQty.addEventListener("input",()=>{
     let qtyVal = chickenQty.value;
     let total = EvalTotal(chickenRate,qtyVal);
     // console.log(total)
